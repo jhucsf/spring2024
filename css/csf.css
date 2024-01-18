@@ -1,7 +1,9 @@
 h1 {
-  text-decoration: underline;
-  text-decoration-color: #1f386b;
-  text-decoration-thickness: 3px;
+  color: #1f386b;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-color: #1f386b;
+  margin-top: 1em;
 }
 
 a {
