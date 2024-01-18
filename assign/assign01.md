@@ -76,6 +76,21 @@ curl -O https://jhucsf.github.io/spring2024/assign/csf_assign01.zip
 We strongly recommend using a [Git](https://git-scm.com/) repository to store
 your code. Please do not use a public repository, however.
 
+To compile the test program, run the commands
+
+```
+make depend
+make
+```
+
+Note that `make depend` automatically determines header file dependencies.
+
+To run the unit tests:
+
+```
+./bigint_tests
+```
+
 # Machine integers, arbitrary-precision integers
 
 As you know, the "built-in" C integer data types (`int`, `uint64_t`, etc.) have
@@ -224,7 +239,9 @@ You aren't required to implement these specific private member functions
 ### Addition of magnitudes
 
 You should implement addition of magnitudes using the "grade school" algorithm.
-Think about the vector of `uint64_t` values in each operand as a "digit".
+Think about each element of the vector of `uint64_t` values in a `BigInt`
+object as a "digit". The `uint64_t` values just happen to be digits in base
+$$2^{64}$$.
 
 Start by adding the "digits" in the rightmost column to compute the rightmost
 digit of the result. Note that the computed "digit" is correct modulo $$2^{64}$$.
@@ -279,12 +296,12 @@ You can handle negative values as follows:
 
 * If two nonnegative values are added, or if two negative values are added,
   then the result has a magnitude that is the sum of the magnitudes of
-  the operands, and the sign will be the same as the sign of both operands
+  the operands, and the sign will be the same as the sign of both operands.
 * In a "mixed" addition (one operand is non-negative and one operand is
   negative), the magnitude of the result is the difference $$a-b$$, where $$a$$
   is the magnitude of the value with the larger magnitude, and $$b$$ is the
   magnitude of the value with the smaller magnitude. The sign of the result
-  is the same as the operand with the larger magnitude.
+  is the same as the sign of the operand with the larger magnitude.
 
 You will probably find it useful to create helper functions to add magnitudes
 and subtract magnitudes.
@@ -328,7 +345,7 @@ Here are some ideas that could make it simpler to implement:
 
 * If the number of bits shifted is a multiple of 64, that is an "easy" case,
   since each `uint64_t` value in the result's bit string will be identical
-  to a corresponding `uint64_t` value in the original value's bit string
+  to a corresponding `uint64_t` value in the original value's bit string.
 * The number of bits shifted is really only "interesting" modulo 64.
   For example, shifting left by 1 bit, shifting left by 65 bits,
   shifting left by 129 bits, etc., are very similar cases. The only
@@ -401,7 +418,8 @@ from least significant to most significant.
 
 Note that you could make this process more efficient by generating more than
 one digit at a time. For example, repeatedly dividing by 100 would yield
-two base-10 digits at a time.
+two base-10 digits at a time. You should think about how many base-10 digits
+can be produced by each iteration of this process.
 
 As with `to_hex()`, `std::stringstream` will be helpful. Also, don't forget
 to prepend a leading `-` sign if the value is negative.
