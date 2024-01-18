@@ -310,14 +310,14 @@ The left shift operator (`operator<<(unsigned)`) will require some careful thoug
 Here are some ideas that could make it simpler to implement:
 
 * If the number of bits shifted is a multiple of 64, that is an "easy" case,
-  since each `uint64_t` value in the result's bit vector will be identical
-  to a corresponding `uint64_t` value in the original value's bit vector
+  since each `uint64_t` value in the result's bit string will be identical
+  to a corresponding `uint64_t` value in the original value's bit string
 * The number of bits shifted is really only "interesting" modulo 64.
   For example, shifting left by 1 bit, shifting left by 65 bits,
   shifting left by 129 bits, etc., are very similar cases. The only
   way in which they differ is how many `uint64_t` values worth of 0
   bits are incorporated into the least-significant part of the result's
-  bit vector.
+  bit string.
 
 ### Conversion to hexadecimal (`to_hex()`)
 
