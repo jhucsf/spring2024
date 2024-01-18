@@ -90,7 +90,8 @@ BIOS to allow VirtualBox to run correctly.  We recommend dedicating a significan
 8 GB of RAM.)
 -->
 
-Note that if you are using an M1-based (ARM) Mac computer, there aren't any good
+Note that if you are using an Apple Silicon-based (ARM) Mac computer,
+then (as far as we know) there aren't any good
 options for setting up a local development environment.  Virtualization won't work
 in the case because the computer doesn't use an x86-64 CPU. However, using
 [Visual Studio Code](https://code.visualstudio.com/) connected to an SSH
