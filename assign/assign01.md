@@ -190,6 +190,20 @@ Instead, left shift the value `1UL` the appropriate number of places.
 E.g., `1UL << n` will be equal to $$2^{n}$$ as long as `n` is in the range
 $$0 \ldots 63$$.
 
+This assignment is about integers.
+
+### Do use `auto`
+
+We encourage you to use `auto` to infer types, since it makes code
+cleaner and more readable. For example, to iterate through a
+vector `v`:
+
+```c++
+for (auto i = v.begin(); i != v.end(); ++i) {
+  // do something with *i
+}
+```
+
 ### Helper functions
 
 We recommend adding private member functions as necessary to support the implementation
