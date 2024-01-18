@@ -3,9 +3,9 @@ layout: mathjax
 title: "Assignment 1: Big Integers"
 ---
 
-Milestone 1: due *TBD*
+Milestone 1: due **Monday, Jan 29th** by 11 pm
 
-Milestone 2: due *TBD*
+Milestone 2: due **Monday, Feb 5th** by 11 pm
 
 Assignment type: **Pair**, you may work with one partner
 
@@ -72,6 +72,9 @@ Note that you can download the zipfile from the command line using the `curl` pr
 ```bash
 curl -O https://jhucsf.github.io/spring2024/assign/csf_assign01.zip
 ```
+
+We strongly recommend using a [Git](https://git-scm.com/) repository to store
+your code. Please do not use a public repository, however.
 
 # Machine integers, arbitrary-precision integers
 
