@@ -449,7 +449,7 @@ hand-written test cases, not a substitute for them.
 Before submitting each milestone, you should edit `README.txt`
 to include information about
 
-* the contributions of each team member'
+* the contributions of each team member
 * any interesting implementation details or things we should know
   about your submission
 
