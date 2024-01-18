@@ -55,8 +55,8 @@ Milestone 2 (85% of the assignment grade):
   <div class='title'>Important!</div>
   <div class='content' markdown='1'>
 Multiplication (`operator*`) is somewhat challenging, and is worth
-at most 1% of the assignment grade.  Division (`operator/`) and conversion to
-base-10 (`to_dec()`) are even more challenging, and each is worth at most 0.5% of the
+at most 1.5% of the assignment grade.  Division (`operator/`) and conversion to
+base-10 (`to_dec()`) are even more challenging, and each is worth at most 0.75% of the
 overall assignment grade. You should work on all of these only after implementing
 and testing the other member functions.
   </div>
