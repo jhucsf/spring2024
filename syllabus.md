@@ -25,11 +25,11 @@ Office hours: T/Th 1–3 pm, via Zoom (see Courselore for link)
 
 Head CAs:
 
-*TBD*
+*TBA*
 
 CAs:
 
-*TBD*
+*TBA*
 
 ## Meeting
 
