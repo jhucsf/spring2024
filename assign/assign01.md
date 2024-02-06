@@ -405,7 +405,7 @@ by 1 bit is effectively a division by 2.
 
 The intended semantics of division is that the computed quotient has the
 largest magnitude such that multiplying it by the divisor yields a product
-which is not greater than the dividend.
+whose magnitude is not greater than the dividend's magnitude.
 
 You will need to think about how the sign of the result relates to the
 signs of the operands.
