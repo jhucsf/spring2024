@@ -473,7 +473,7 @@ easily find your assembly languge code turning into an unmaintainable mess.
 
 ## x86-64 tips
 
-We made a [screencast video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b406360-7fbc-4875-b2e4-af1800e8286b)
+We made a [screencast video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f1ccb92-a3e6-4a6b-be6a-b10e00e8f91c)
 which walks through implementing, testing, and debugging assembly language
 code. This video covers all of the essential techniques you will
 need for this assignment.
