@@ -469,7 +469,7 @@ assembly code. So, helper functions to perform arithmetic, bounds checking,
 color blending, and so forth are valuable because they will allow you to
 make progress on your assembly code one helper function at a time.
 Without well-factored helper functions with good testing, you could
-easily find your assembly languge code turning into an unmaintainable mess.
+easily find your assembly language code turning into an unmaintainable mess.
 
 ## x86-64 tips
 
