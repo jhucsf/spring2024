@@ -12,7 +12,6 @@ This section has links to some information resources you might find useful.
 
 ## Practice problems and exams
 
-<!--
 
 Review materials for Exam 1:
 
@@ -20,6 +19,7 @@ Review materials for Exam 1:
 * [Midterm, Spring 2020](resources/midterm-spring2020.pdf) (Questions 1–3), [Solution](resources/midterm-spring2020-soln.pdf)
 * [Exam 1, Fall 2021](resources/exam01-fall2021.pdf), [Solution](resources/exam01-fall2021-soln.pdf)
 
+<!--
 Review materials for Exam 2:
 
 * [Exam 2 practice questions](resources/exam2review.html), [Solutions](resources/exam2review-solutions.html)
