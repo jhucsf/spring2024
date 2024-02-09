@@ -527,7 +527,7 @@ that you can then use the callee-saved registers freely in your function.
 
 We *strongly* recommend that you have a comment in each function explaining
 how it uses callee-saved registers and stack memory, since these are
-the equivalent of local variables in assembly code. For exmaple,
+the equivalent of local variables in assembly code. For example,
 here is a comment taken from one of the helper functions in the
 reference solution:
 
