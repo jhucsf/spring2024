@@ -38,6 +38,9 @@ Gradescope.
 
 ## News
 
+* **Feb 28** — [Assignment 3](assign/assign03.html) has three milestones,
+  due **Monday, Feb 4th**, **Friday, Mar 15th**, and **Friday, Mar 29th**,
+  respectively.
 * **Feb 6** — [Assignment 2](assign/assign02.html) has three milestones,
   due **Wednesday, Feb 14th**, **Wednesday, Feb 21st**, and
   **Wednesday, Feb 28th**, respectively.
