@@ -25,9 +25,21 @@ Office hours: T/Th 1–3 pm, via Zoom (see Courselore for link)
 
 Head CAs:
 
-*TBA*
+* Lisa Hou <qhou4@jhu.edu>
+* Kuleen Sasse <ksasse1@jhu.edu>
 
 CAs:
+
+* Nian Gao <ngao6@jhu.edu>
+* Owen Reed <oreed2@jhu.edu>
+* Rena Bi <rbi4@jhu.edu>
+* Nicolas Liu <nliu22@jhu.edu>
+* David Hla <dhla2@jhu.edu>
+* Sanne Wu <swu108@jhu.edu>
+* Yash Permalla <ypermal1@jhu.edu>
+* Daniel Jin <djin4@jhu.edu>
+* Alisa Yang <yyang221@jhu.edu>
+* Ishan Hemmige <ihemmig1@jhu.edu>
 
 *TBA*
 
