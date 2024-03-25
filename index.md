@@ -38,6 +38,8 @@ Gradescope.
 
 ## News
 
+* **Mar 25** — Review materials for Exam 2 (in class on **Wednesday, April 3rd**)
+  are available on the [Resources](resources.html) page.
 * **Feb 28** — [Assignment 3](assign/assign03.html) has three milestones,
   due **Monday, Feb 4th**, **Friday, Mar 15th**, and **Friday, Mar 29th**,
   respectively.
